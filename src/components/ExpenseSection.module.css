@@ -1,0 +1,46 @@
+.expenseSection {
+    background: #626262;
+    border-radius: 15px;
+    width: 400PX;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    box-sizing: content-box;
+    border: 1px solid white;
+  }
+  
+  .expenseSection h2 {
+    margin-bottom: 35px;
+  }
+  
+  .expenseSection button {
+    padding: 10px 20px;
+    background: #FF8042;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .expenseSection button:hover {
+    background: #FFBB28;
+  }
+  @media (max-width: 768px) {
+    .expenseSection {
+      width: 100%;
+      height: auto;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-sizing: content-box;
+      border: 1px solid white;
+    }
+  
+    .expenseSection button {
+      width: 100%;
+    }
+  }
+  

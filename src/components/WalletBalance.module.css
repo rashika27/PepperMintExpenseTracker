@@ -1,0 +1,57 @@
+.walletBalance {
+    background: #626262;
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    margin-right: 20px;
+
+  }
+  
+  .walletBalance h2 {
+    margin-bottom: 35px;
+  }
+  
+  .walletBalance input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .walletBalance button {
+    padding: 10px 20px;
+    background: #00C49F;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .walletBalance button:hover {
+    background: #0088FE;
+  }
+  
+  @media (max-width: 768px) {
+    .walletBalance {
+      width: 100%;
+      height: auto;
+      padding: 16px;
+      margin-bottom: 16px;
+
+    }
+  
+    .walletBalance input, 
+    .walletBalance button {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  

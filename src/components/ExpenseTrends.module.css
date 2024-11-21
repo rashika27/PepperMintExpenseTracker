@@ -1,0 +1,28 @@
+.barChartContainer {
+    background: #626262;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 90%;
+    opacity: 1;
+  }
+  
+  .heading {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .barChartContainer {
+      width: 100%;
+      height: auto;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+  }
+  
+  

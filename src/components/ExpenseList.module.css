@@ -1,0 +1,86 @@
+.expenseList {
+    background: #626262;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 50%;
+  }
+  
+  .expenseList h1 {
+    margin-top: 0px;
+  }
+  
+  .expenseList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expenseList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #9b9b9b;
+    gap: 10vw;
+    display: flex;
+    /* justify-content: space-around; */
+  }
+  .expenseList li div {
+    width: 30vw;
+  }
+  
+  .expenseList button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background: #ff8042;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .expenseList button:hover {
+    background: #ffbb28;
+  }
+  
+  .expenseList li span {
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 400px) {
+    .expenseList li {
+      flex-direction: row;
+      align-items: start;
+      gap: 0;
+
+    }
+    .expenseList button {
+      /* width: 100%; */
+      margin-bottom: 10px;
+    }
+
+    
+  }
+  
+  @media (max-width: 600px) {
+    .expenseList button {
+      /* width: 100%; */
+      margin-bottom: 10px;
+    }
+
+    .expenseList li {
+        flex-direction: row;
+        align-items:start;
+        gap: 0;
+        margin-bottom: -10px;
+  
+      }
+    .expenseList li span {
+        margin-top: 20px;
+        margin-left: 20px;
+
+      }
+  }
+  

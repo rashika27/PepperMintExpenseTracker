@@ -1,0 +1,80 @@
+/* src/components/AddIncomeModal.module.css */
+.overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    width: 538px;
+    height: 164px;
+    border-radius: 15px 0px 0px 0px;
+    background: white;
+    padding: 20px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h2 {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  
+  .formGroup {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button[type="button"] {
+    background-color: orange;
+    color: white;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #da190b;
+  }
+  
+  @media (max-width: 768px) {
+    .modal {
+      width: 90%;
+      height: auto;
+      padding: 16px;
+    }
+  
+    .formGroup {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    input, button {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  
